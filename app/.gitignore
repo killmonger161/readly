@@ -1,1 +1,13 @@
-/build
+# Ignore Gradle and Build files
+.gradle/
+build/
+captures/
+
+# Ignore local config (Crucial for Open Source)
+local.properties
+.idea/workspace.xml
+.idea/caches/
+
+# Ignore signing keys (Don't share your private keystores!)
+*.jks
+*.keystore
